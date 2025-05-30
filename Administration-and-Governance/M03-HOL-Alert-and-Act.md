@@ -251,81 +251,77 @@ In this exercise, you will be building the automated flow to process new form su
 
 1. Select **+ Add an action** under **Create Environment**.
 
-   ![](images/M03/pp84.png)
+   ![](images/po-52.png)
 
 1. Search for **Power Platform for admins** and under **Power Platform for admins** section select **See more (2)**.
 
     ![](images/M03/ppt27.png)
 
-1. Select **Create CDS Database**.
+1. Select **Create CDS Database**. If, required select an existing connection.
 
-1. Select an existing connection.
+1. Select on the **Environment (1)** dropdown and select **Enter custom Value (2)**.
 
-   ![](images/M03/ppt29.png)
+   ![](images/po-54.png)
 
-1. Select on the **Environment** dropdown and select **Enter Custom Value**.
+1. Type **/**, and select **Insert dynamic content**. Search and select the **Name (1)** from the Dynamic content pane and select **Add (2)**.
 
-   ![](images/M03/M3-EX2-T3-S4.png)
-
-1. Select **Name (1)** from the Dynamic content pane.
-
-   ![](images/M03/M3-EX2-T3-S5.png)
+   ![](images/po-53.png)
 
 1. Select **Show all (2)**.
 
-   ![](images/M03/pp87.png)
+   ![](images/po-55.png)
 
 1. Enter **1033 (1)** for Base Language and enter **USD (2)** for Currency Code.
 
 1. Enter **D365_CDSSampleApp (3)** for Template Item.
 
-   ![](images/M03/pp89.png)
+   ![](images/po-56.png)
 
 1. Select **Add an action** under **Create CDS Databse**.
 
-   ![](images/M03/pp90.png)
+   ![](images/po-57.png)
 
 1. Search for **Send Email (1)** and select **Send an email (V2) (2)**.
 
    ![](images/M03/pp91.png)
 
-1. Select an existing connection.
-
-   ![](images/M03/ppt31.png)
-
-1. Click on **Sign in**. Sign in with the lab credentials.
-
-   ![](images/M03/pp92.png)
+1. If required select an existing connection. Click on **Sign in**. Sign in with the lab credentials.
 
 1. Click on **Switch to Advanced Mode**.
 
    ![](images/M03/pp93.png)
 
-1. Select on the **To:** field and select **Responders Email** for the Dynamic Content pane **(1)**.
+1. Select on the **To:** field, type **/ (1)**, and select **Insert dynamic content (2)**.
 
-1. Enter **Your environment was created** for **Subject (2)**.
+    ![](images/po-58.png)
 
-1. Enter **Environment** in the **Body** field and select **Display Name** from the Dynamic Content pane under the **Create Environment** step and add **was created** in the last **(3)**.
+1. Type and search for **Responders Email (1)**, and select **Responder's Email** from the Dynamic Content pane **(2)**.
+
+    ![](images/po-59.png)
+
+1. Enter **Your environment was created** for **Subject (1)**. Enter **Environment** in the **Body** field. Type **/**, and select **Insert dynamic content**. Select **Display Name (2)** from the Dynamic Content pane under the **Create Environment** step and add **was created.** in the last.
+
+    ![](images/po-60.png)
 
 1. Your email should look like the image below.
 
-    ![](images/M03/pp94.png)
+    ![](images/po-61.png)
 
 1. Go to the **False** branch and select **Add an Action** to create a new connection under the **False** branch.
 
    ![](images/M03/pp95.png)
 
-1. Search for Send email and select **Send an email (V2)**.
+1. Search for **Send an email (V2) (1)** and select **Send an email (V2) (2)**.
 
-   ![](images/M03/pp96.png)
+   ![](images/po-62.png)
 
 1. Select **Switch to Advanced Mode**.
 
    ![](images/M03/pp97.png)
 
-1. Select on the **To:** field and select **Responder’s Email** from the Dynamic Content pane.
+1. Select on the **To:** field, search and select for **Responder’s Email** from the Dynamic Content pane.
 
-   ![](images/M03/pp98.png)
+   ![](images/po-63.png)
 
 1. Type **Rejected environment request (1)** for **Subject**.
 
@@ -333,11 +329,11 @@ In this exercise, you will be building the automated flow to process new form su
 
 1. Your email should now look like the image below.
 
-    ![](images/M03/pp99.png)
+    ![](images/po-64.png)
 
 1. Select **Save**.
 
-    ![](images/M03/M3-EX2-T3-S21.png)
+    ![](images/po-65.png)
 
 1. Select **Flow checker** and make sure there are no errors.
 
@@ -361,11 +357,11 @@ In this exercise, you will be building the automated flow to process new form su
 
    ![](images/M03/pp105.png)
 
-1. **Copy** the link.   
+1. Select **Copy link**.   
 
-   ![](images/M03/M3-EX2-T4-S2-1.png)
+   ![](images/po-66.png)
 
-1. Paste the link in the browser and navigate to it.
+1. Open a new tab in the browser. Paste the link in the browser and navigate to it.
 
    ![](images/M03/pp106.png)
 
@@ -377,7 +373,7 @@ In this exercise, you will be building the automated flow to process new form su
 
      ![](images/M03/pp107.png)   
    
-    >**Note**: For this course, we will be using this environment we created here later in another lab to deploy the Device Ordering solution using Azure Dev Ops, for that lab it will serve as the Test environment which is why we are suggesting naming it Central Apps Test. In real word use, most likely it would be a team/project development environment that would be requested using a form like this.
+        >**Note**: For this course, we will be using this environment we created here later in another lab to deploy the Device Ordering solution using Azure Dev Ops, for that lab it will serve as the Test environment which is why we are suggesting naming it Central Apps Test. In real word use, most likely it would be a team/project development environment that would be requested using a form like this.
 
 1. Navigate back to the **Power Automate** portal, Go to **My flows (1)** list and open the flow you created **(2)**.
 
@@ -391,11 +387,9 @@ In this exercise, you will be building the automated flow to process new form su
 
    ![](images/M03/M3-EX2-T4-S8.png)
 
-1. Navigate to Outlook.
+1. Navigate to Outlook. You should have an approval request email, select to open it.
 
-1. You should have an approval request email, select to open it.
-
-    ![](images/M03/M3-EX2-T4-S10.png)
+    ![](images/po-68.png)
 
 1. Select **Approve**.
 
