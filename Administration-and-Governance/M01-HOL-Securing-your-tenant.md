@@ -27,7 +27,6 @@ utilize for this course.
 
 You will be assigned one or more users to use to complete the tasks. Because this is a shared environment, some tasks that require a tenant Global Administrator or a Service Administrator will already be completed. Your account will only be an environment administrator.
 
-
 ## Exercise 1: Exploring existing Power Platform usage
 
 ### Scenario
@@ -43,13 +42,15 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
 In this task you will, navigate the Power Platform admin center to explore, filter, and analyze environments, security roles, and apps created in the default environment.
 
-1. Navigate to **Power Platform admin center** by following the link `https://aka.ms/ppac`.
+1. Open a new tab and navigate to **Power Platform admin center** by following the link:
 
-1. Close the Pop up screen.
+    ```
+    https://aka.ms/ppac
+    ```
 
-    >**Note:** If you recieve any feedback pop-up, close it.
+    >**Note:** Close the Pop up screen. If you recieve any feedback pop-up, close it.
 
-1. From the left navigation menu, select **Manage**.
+1. On the **Power Platform admin center** page, from the left navigation menu, select **Manage**.
 
     ![](images/M01/manage.png)
 
