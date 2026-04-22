@@ -60,7 +60,7 @@ In this task you will, navigate the Power Platform admin center to explore, filt
 
 1. Notice the **Type** column, you can see Fabrikam is already using several types of environments.
 
-1. You can filter and order environments. Select on the **Type (1)** column, select filter by **Production (2)**, and Select **Apply (3)**.
+1. You can filter and order environments. Select on the **Type (1)** column, select filter by **Production (2)**, and select **Apply (3)**.
 
    ![](images/M01/2.png)
 
@@ -78,13 +78,13 @@ In this task you will, navigate the Power Platform admin center to explore, filt
 
    ![](images/M01/4.png)
 
-1. The list of environments will show **Production** and .**Default** environments ordered by environment name in ascending order.
+1. The list of environments will show **Production** and **Default** environments ordered by environment name in ascending order.
 
    ![](images/M01/PDA.png)
 
 1. Now remove the filters, by clicking on the **Environment (1)**, click on **Clear all filters (2)** and then **Apply (3)**. You should see all environments.
 
-    ![](images/M01/clearfilter.png)
+    ![](images/img-01-03.png)
 
 1. Next, notice all the environments with **Thrive Hr** in the name. These are a set of environments Contoso uses to manage the lifecycle of their Thrive apps; a suite of employee 
     engagement apps. They are built in Thrive Hr - Dev and then are promoted to Test -> UAT-> Production after testing by your admin team.
@@ -93,7 +93,7 @@ In this task you will, navigate the Power Platform admin center to explore, filt
 
 1. Select on the **Type (1)** and filter by **Default (2)** and then **Apply (3)**.
 
-    ![](images/M01/def.png)  
+    ![](images/img-01-04.png)  
 
 1. This is the environment in which all users are makers and can build their apps and flows. Think of this environment as supporting personal productivity use of the platform. This is also the default location used by any customizations built with Power Apps in Office apps. The default environment can’t be deleted, but you can rename it to make clear its 
     purpose. For example, some name it **User and Team Productivity** like we have in this tenant.
@@ -103,6 +103,8 @@ In this task you will, navigate the Power Platform admin center to explore, filt
     ![](images/M01/denv.png)
 
 1. In the **Access** section, you’ll notice that there are multiple options to choose from, which can be used to determine who has access to which items.
+
+    ![](images/img-01-05.png)
 
 1. Select **See all** under **Security Roles**.
 
@@ -114,13 +116,11 @@ In this task you will, navigate the Power Platform admin center to explore, filt
 
 1. Use the search box in the top right to enter **Environment Maker (1)**, then select the only result for **Environment Maker** security role and notice the **Business unit (2)**.
 
-    ![](images/M01/bu.png)
- 
-    >**Note:** Notice that the org is listed as the **Business Unit**; this means everyone in the organization will have this role by default. For environments other than the default, you control this. However, default is special and Tenant can’t be removed from the role.
+    ![](images/img-01-06.png)
 
 1. Go back to the Environment Details page, by clicking on the **default environment** name.
 
-    ![](images/M01/bu2.png)
+    ![](images/img-01-07.png)
 
 1. In the **Resources** section, select **Power Apps**.
 
@@ -128,16 +128,15 @@ In this task you will, navigate the Power Platform admin center to explore, filt
 
 1. These are apps built by users in your default environment. Notice many of them are just test names because this is where a lot of users will experiment and build their first app. As you scroll down the list you might notice some names are more deliberate e.g., Product Showcase. Later in the course, we will talk about how to identify these upcoming apps so you can help guide them to ensure they mature and have adequate governance.
 
-    ![](images/M01/padef.png)
-
+    ![](images/img-01-08.png)
 
 ### Task 2: Review existing Data policies
 
 In this task you will, examine existing DLP policies, including global and exception policies, and review how connectors and environments are configured.
 
-1. From the left navigation menu, expand **Security(1)**, then click on **Data and privacy (2)** and select **Data policy (3)**.
+1. From the left navigation menu, select **Security (1)**, then click on **Data and privacy (2)** and select **Data policy (3)**.
 
-    ![](images/M01/datpol.png)
+    ![](images/img-01-09.png)
 
 1. Review the list of existing policies.
 
@@ -185,7 +184,6 @@ In this task you will, examine existing DLP policies, including global and excep
 
     ![](images/can.png)
 
-
 ## Exercise 2: Plan an environment strategy
 
 In this exercise, you will be reviewing the scenario for Fabrikam that explains their current situation. After reviewing you will evaluate and propose an environmental plan.
@@ -200,7 +198,6 @@ at multiple office locations in the US, UK and EU. Fabrikam employees are all li
 licenses. Over the last 6 months, Fabrikam’s management realized that this was greatly improving productivity, but they recognised without some planned governance it could easily get 
 out of control. About 50 of the users are more advanced power users of the platform always looking at ways to push its limits. Fabrikam’s sales team of 100 users also use a heavily 
 customized Dynamics 365 Sales app deployment.
-
 
 One of the first things you did was look in the admin center to see how many environments were there. Currently, in the tenant, there are 45 environments with a variety of names that users 
 choose. The majority of the applications looked like they were in the default environment or a couple of other custom environments that had been created. There was one environment that 
@@ -238,9 +235,7 @@ for you to answer.
 
     ![](images/M01/pp15.png)
 
-1. Complete it by answering each of the questions. You should spend no more than 10 minutes on this before 
-   proceeding to the next task.
-
+1. Complete it by answering each of the questions. You should spend no more than 10 minutes on this before proceeding to the next task.
 
 ### Task 3: Review the example environment plan and compare it to yours
 
@@ -251,7 +246,6 @@ In this task, we have provided you with a completed environment plan. Review the
     ![](images/M01/pp16.png)
 
 2. Talk to your trainer about any significant differences that do not make sense to you.
-
 
 ## Exercise 3: Plan a DLP strategy
 
@@ -264,10 +258,7 @@ In this exercise, you will be planning a DLP strategy for Fabrikam using the sam
 In this task, you use the information from the last exercise’s scenario to help you propose a DLP plan for Fabrikam. To help you build the plan we have prepared a worksheet with questions 
 for you to answer.
 
-1. Open **M01 – HOL DLP Plan Worksheet.docx** from the Resources folder and complete it by answering each of the questions. You should spend no more than 10 minutes on this before proceeding 
-   to the next task.
-
- 
+1. Open **M01 – HOL DLP Plan Worksheet.docx** from the Resources folder and complete it by answering each of the questions. You should spend no more than 10 minutes on this before proceeding to the next task.
 
 ### Task 2: Review the example DLP plan and compare it to yours
 
@@ -276,7 +267,6 @@ In this task, we have provided you with a completed environment plan. Review the
 1. Open the Example Environment Plan document **M01 – HOL DLP Plan Example.docx** and compare the answers to the one you completed in the previous task.
 
 2. Talk to your trainer about any significant differences that do not make sense to you.
-
 
 ## Exercise 4: Evaluate the impact of adding DLP
 
@@ -290,44 +280,52 @@ In this task you will, set up a new trial environment with Dataverse and assign 
 
 1. Navigate back to the **Power Platform admin center**.
 
-1. From the left navigation menu, select **Manage (1)**, select **Environment(2)** and then click on **+ New (3)**.
+1. From the left navigation menu, select **Manage (1)**, select **Environment (2)** and then click on **+ New (3)**.
 
    ![](images/newenv.png)
 
-1. Enter **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (1)** for Name, select Region as **United States - Default (2)**, select **Trial (3)** as Type, select **Yes (4)** for Add a Dataverse data store?, and select **Next (5)**.
+1. On the **New environment** page enter the following details:
 
-   ![](images/M01/e4t12.png)
+    - Type: **Trial (1)** 
+    - Region: **United States - Default (2)**
+    - Name: **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (3)**
+    - Expand **Change default settings** 
+    - Add a Dataverse data store: **Yes (4)** 
+    - Select **Next (5)**
 
-1. Leave the default values for **Language (1)** and **Currency (2)**. Under **Security group** section, select **+ Select (3)**.
+        ![](images/img-01-11.png)
 
-    ![](images/M01/e4t13.png)
+        ![](images/img-01-12.png)
+
+1. Leave the default values for **Language (1)** and **Currency (2)**. Under **Security group** section, click **+ Select (3)**.
+
+    ![](images/img-01-14.png)
 
 1. Then set your security group to **All Contoso users (1)** and then select **Done (2)**.
 
-   ![](images/M01/e4t14.png)
+   ![](images/img-01-13.png)
 
-1. Select **Save**.
+1. On the **Add Dataverse** page, select **Save**.
 
-   ![](images/M01/e4t15.png)
+   ![](images/img-01-15.png)
 
 1. Wait for the environment to be created. Please do **refresh** the page. The state will change to **Ready** when the environment is ready.
 
     ![](images/M01/e4t16.png)
 
-
 ### Task 2: Create a flow to get the weather
 
 In this task you will, build a simple scheduled flow that retrieves weather data and sends it via email.
 
-1. Navigate to the **Power Apps** maker portal, click on the **Environment (1)** and select the **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** **(2)** environment that you have created.
+1. Navigate to the **Power Apps** portal, click on the **Environment (1)** and select the **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** **(2)** environment that you have created.
 
    ![](images/M01/ppt13.png)
 
-2. Select **Flows (1)** from the left, select **+ New flow (2)** drop down and select **Scheduled cloud flow (3)**.
+2. On the **Power Apps** portal, select **Flows (1)** from the left, select **+ New flow (2)** drop down and select **Scheduled cloud flow (3)**.
 
    ![](images/po-13.png)
 
-3. Enter **Weather Flow (1)** for Flow Name, select **Repeat every 1 Day (2)**, and select **Create (3)**.
+3. Enter **Weather Flow (1)** for **Flow Name**, select **Repeat every 1 Day (2)**, and select **Create (3)**.
 
     ![](images/M01/pp24.png)
 
@@ -335,23 +333,23 @@ In this task you will, build a simple scheduled flow that retrieves weather data
 
     ![](images/M01/pv2.png)
 
-5. Search for **MSN (1)** and select **Get current weather** MSN Weather **(2)**.
+5. Search for **MSN (1)** and select **Get current weather** **(2)**.
 
-   ![](images/M01/e4t25.png)
+   ![](images/img-01-16.png)
 
-6. Provide your **Location (1)**, select your preferred **Units (2)**, and select **+ New step (3)**.
+6. Provide your **Location (1)**, select your preferred **Units (2)**, and select **+ New step**.
 
-   ![](images/M01/M1-EX4-T2-S6.png)
+   ![](images/img-01-17.png)
 
 7. Search for **send an email (1)** and select **Send an email (V2) (2)**.
 
-   ![](images/po-14.png)
+   ![](images/img-01-18.png)
 
 8. Provide your email for **To:** **<inject key="AzureAdUserEmail"></inject> (1)** and enter **Current Weather (2)** for **Subject**.
 
-9. Select on the Body enter `Current weather for:` **(3)** and select **Location (4)** from the Dynamic content pane.
+9. Select on the Body enter `Current weather for:` **(3)**. Under the box select **Add dynamic content (4)** and select **Location (5)** from the Dynamic content pane.
 
-   ![](images/M01/e4t26.png)
+   ![](images/img-01-19.png)
 
 10. Hit the **[ENTER]** key **,** enter **Temperature:** and then select **Temperature** from the Dynamic content pane.
 
@@ -359,17 +357,17 @@ In this task you will, build a simple scheduled flow that retrieves weather data
 
 12. You may add other values to the email and you body should like this.
 
-    ![](images/M01/e4t27.png)
+    ![](images/img-01-20.png)
 
 13. Select **Save**.
 
-    ![](images/M01/e4t28.png)
+    ![](images/img-01-21.png)
 
-14. Go to My Flows by selecting the **back arrow button** of Weather Flow located on the top left of the page.
+14. Go to **My Flows** by selecting the **back arrow button** of Weather Flow located on the top left of the page.
 
     ![](images/M01/pv3.png)
 
-15. Select the flow to open **(1)** and select **Run (2)**.
+15. Select the checkbox of the flow **(1)** and select **Run (2)**.
 
     ![](images/M01/pp26.png)
 
@@ -391,7 +389,7 @@ In this task, you will create an environment specific DLP and see how it impacts
 
    ![](images/M01/pgad.png)
 
-1. Select **Security (1)** from the left pane, select **Data and privacy(2)** and click **Data Policy (3)**.
+1. On the **Power Platform admin center** select **Security (1)** from the left pane, select **Data and privacy (2)** and click **Data Policy (3)**.
 
    ![](images/M01/e4t29.png)
 
@@ -401,50 +399,48 @@ In this task, you will create an environment specific DLP and see how it impacts
 
 1. Enter **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (1)** for Name and select **Next (2)**.
 
-   ![](images/M01/e4t211.png)
+   ![](images/img-01-22.png)
 
-1. Search for Microsoft Dataverse, search for **Microsoft Dataverse (1)** then select **Microsoft Dataverse (2)**, and click on **Move to Business (3)**. Choose carefully, you may have to expand the Name column to differentiate 
+1. On the **Prebuilt connections** search for **Microsoft Dataverse (1)** then select **Microsoft Dataverse (2)**, and click on **Move to Business (3)**. Choose carefully, you may have to expand the Name column to differentiate 
    between connectors in your search results.
 
-   ![](images/mtb.png)
+   ![](images/img-01-23.png)
 
 1. Search for **SharePoint (1)**, select **SharePoint (2)** and click on **Move to Business (3)**.
 
-   ![](images/M01/stb.png)
+   ![](images/img-01-24.png)
 
 1. Search for **Outlook (1)**, select **Office 365 Outlook (2)** and click on **Move to Business (3)**.
 
-   ![](images/otb.png)
+   ![](images/img-01-25.png)
 
-1. Select the **Business (1)** tab. You should now have **three connectors (2)** moved to Business. Then click on **Next(3)**.
+1. Select the **Business (1)** tab. You should now have **three connectors (2)** moved to Business. Then click on **Next (3)**.
 
-   ![](images/M01/newbtab.png)
+   ![](images/img-01-26.png)
 
-1. Skip the Custom connector by Selecting the **Next** button, we won’t be using any in this example.
+1. Skip the Custom connector by selecting the **Next** button, we won’t be using any in this example.
 
 1. Select **Add multiple environments (1)** from the options, then select **Next (2)**.
 
     ![](images/multenv.png)
 
-1. Choose the environment you created **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (1)** and select **+ Add to Policy (2)**.
+1. Choose the environment you created **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (1)** and select **+ Add to Policy (2)**. Once done, select **Next**.
 
-    ![](images/envpol.png)
+    ![](images/img-01-27.png)
 
-1. Once done, select **Next**.
+1. Review the policy, to make sure you have **(3) Business**  **(1)** connectors added, and only  **1 environment(s)** **(2)** selected and select **Create policy (3)**.
 
-1. Review the policy, to make sure you have **(3) Business**  **(1)** connectors added, and only  **1 Environment** **(2)** selected and select **Create policy (3)**.
+    ![](images/img-01-28.png)
 
-    ![](images/M01/cp.png)
+1. Navigate to the **Power Apps** portal, from the left navigation menu, click on **Power Platform (1)** and then select **Power Automate (2)**.
 
-1. Navigate to the **Power Apps** portal, click on **Power Platform (1)** and then select **Power Automate (2)**.
-
-    ![](images/M01/pp30.png)
+    ![](images/img-01-29.png)
 
 1. Make sure you are in **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** environment.  
 
     ![](images/po-20.png)
 
-1. From the left navigation menu, select **My flows**.
+1. On the **Power Automate** page, from the left navigation menu, select **My flows**.
 
     ![](images/po-21.png)
 
@@ -452,7 +448,7 @@ In this task, you will create an environment specific DLP and see how it impacts
 
     ![](images/po-22.png)
 
-     >**Note:** It might take some time to reflect. If your not able to see the status as **Suspended**. Navigate to **Weather Flow** flow in Power Apps and then click on **Save** again. Because sometimes Policy may not get reflected immediately. 
+    >**Note:** It might take some time to reflect. If your not able to see the status as **Suspended**. Navigate to **Weather Flow** flow in Power Apps and then click on **Save** again. Because sometimes Policy may not get reflected immediately. 
 
 1. You should not be able to run the flow. There will be a notice at the top showing that the DLP is active and restricting access, and the **Status** should be suspended. Feel free to close the webpage/tab once you’ve confirmed it has been suspended.
 
@@ -464,7 +460,7 @@ In this task, you will create an environment specific DLP and see how it impacts
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-   <validation step="3379fa81-ffc4-49c5-82db-97274e81a612" />
+<validation step="7590c1ab-04c9-4388-8474-c1f1aa46ade1" />
 
 ## Exercise 5: Configure a security role
 
@@ -478,15 +474,15 @@ ID Security group and assign the security role you just built.
 
 In this task you will, import the Fabrikam Project Management solution, run the sample data flow, and test the canvas app with new project records.
 
-1. Navigate to the **Power Apps** maker portal, click on **Environment (1)** and select **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (2)** you created.
+1. Navigate to the **Power Apps** portal, click on **Environment (1)** and select **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (2)** you created.
 
    ![](images/pp-1.png)
 
-2. Select **Solutions (1)** and click on **Import solution (2)**.
+2. On the left navigation menu, select **Solutions (1)** and click on **Import solution (2)**.
 
    ![](images/po-24.png)
 
-3. On the **Import a solution**, and select **Browse**.
+3. On the **Import a solution** page, select **Browse**.
 
 4. Navigate to **C:\LabFiles\PPAdminAttendee%20(1)\PPAdminAttendee\M01 - HOL - Securing your tenant\Resources (1)** folder, select the **Fabrikam Project Management (2)** solution and select **Open (3)**.
 
@@ -521,6 +517,10 @@ In this task you will, import the Fabrikam Project Management solution, run the 
 12. At this point, you may be asked to sign in to the flow, click on **Sign in**.
 
     ![](images/M01/pp33.png)
+
+    - Select **Sign in** again for the **Microsoft Dataverse**
+
+        ![](images/img-01-30.png)
 
     - Select **Continue**.
 
@@ -566,7 +566,7 @@ In this task you will, import the Fabrikam Project Management solution, run the 
 
     ![](images/M01/pv4.png)
 
-25. The application should load, and you should see the sample project records the flow created. Select the **+ New** to create a new Project.
+25. The application should load, and you should see the sample project records the flow created. Select the **+ New** to create a new project.
 
     ![](images/M01/pp37.png)
 
@@ -580,18 +580,17 @@ In this task you will, import the Fabrikam Project Management solution, run the 
 
 28. Close the Project List application browser window or tab.
 
-
 ### Task 2: Create a security role
 
 In this task you will, build a new Project Manager role, configure permissions on the Project table, and publish the changes.
 
-1. Navigate to the **Power Apps** maker portal and make sure you have your sandbox environment selected.
+1. Navigate to the **Power Apps** portal and make sure you have your sandbox environment selected.
 
 1. Select **Solutions (1)** and select to open the **Fabrikam Project Management (2)** solution.
 
    ![](images/po-36.png)
 
-1. Select **+ New (1)** and select **Security (2)** > **Security role (3)**.
+1. Select **+ New (1)** drop-down and select **Security (2)** > **Security role (3)**.
 
     ![](images/po-37.png)
 
@@ -629,11 +628,9 @@ In this task you will, share the Project List app with a security group and assi
 
    ![](images/M01/pp46.png)
 
-1. Click on **Apps (1)**, then choose **Project List (2)** application, and select **Share (3)**.
+1. Click on **Apps (1)**, then select the radio button of the **Project List (2)** application, and select **Share (3)**.
 
    ![](images/M01/po19.png)
-
-   >**Note:** Select the radio button of the project list.
 
 1. On the **Share** pane, select the **ellipses (1)**, and select **Use classic sharing (2)**.
 
@@ -645,7 +642,6 @@ In this task you will, share the Project List app with a security group and assi
 
 1. Close the share pane.
  
-
 ### Review
 
 In this lab, you have accomplished the following:
@@ -657,4 +653,6 @@ In this lab, you have accomplished the following:
 - Exercise 5 – Configured a security role
 
 
-### You have successfully completed this module.
+### You have successfully completed this module. Click **Next** from the lower right corner to move on to the next page.
+
+![Launch Azure Portal](images/gp8.png)

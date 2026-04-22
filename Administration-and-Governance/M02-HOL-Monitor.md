@@ -28,15 +28,15 @@ You need to use the assigned user and environment information to complete this l
 
 In this exercise, you will explore the out-of-the-box analytics that are available from the Power Platform admin center.
 
-1. Navigate to **Power Platform admin center**.
+1. Navigate to **Power Platform admin center** page.
 
 2. Select **Monitor (1)** from the left pane, then select **Power Apps (2)** and click on the **Open settings (3)**
 
-    ![](images/paop.png)
+    ![](images/img-01-31.png)
 
-3. **Enable (1)** the Tenant-level analytics  and click on **Save(2)**. Navigate back to Monitor and select the Power apps
+3. **Enable (1)** the Tenant-level analytics  and click on **Save (2)**. Navigate back to Monitor and select the Power apps
 
-   ![](images/enableana.png)
+   ![](images/img-01-32.png)
 
    >**Note**: Once enabled, this feature aggregates data from environments across all regions in your tenant and copies it into the default environment region for tenant-level reporting. A tenant-level administrator role is required for the one-time operation of granting consent for tenant-level analytics.
 
@@ -185,7 +185,7 @@ In this task you will, enable auditing for the Project table and its Due Date co
 
    ![](images/pp-1.png)
 
-1. Select **Solutions (1)** and choose the **Fabrikam Project Management (2)** solution to open it.
+1. On the left navigation menu, select **Solutions (1)** and choose the **Fabrikam Project Management (2)** solution to open it.
 
    ![](images/M02/pp129.png)
 
@@ -204,7 +204,7 @@ In this task you will, enable auditing for the Project table and its Due Date co
 
    ![](images/po-43.png)
 
-1. Navigate back to the Tables by either selecting the **Tables** using the breadcrumbs at the top.
+1. Navigate back to the Tables by selecting the **Tables** using the breadcrumbs at the top.
 
    ![](images/po-44.png)
 
@@ -230,23 +230,23 @@ In this task you will, enable auditing for the Project table and its Due Date co
 
     ![](images/po-46.png)
 
-1. Navigate to **Power Platform admin center** and select **Manage(1)**, click on **Environments (2)**, select the **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (3)** environment and click on **Settings (4)** from the ribbon at the top.
+1. Navigate to **Power Platform admin center** and select **Manage (1)**, click on **Environments (2)**, select the **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (3)** environment and click on **Settings (4)** from the ribbon at the top.
 
     ![](images/sand.png)
 
-1. Expand **Audit and logs(1)** section and select **Audit settings(2)**.
+1. Expand **Audit and logs (1)** section and select **Audit settings (2)**.
 
     ![](images/audit.png)
 
-1. Check on **Start auditing (1)** checkbox, select **Save (2)** and click **Cancel** to close.
+1. Check on **Start Auditing (1)** checkbox, select **Save (2)** and click **Cancel** to close.
 
-    ![](images/startaduit.png)
+    ![](images/img-01-33.png)
 
 ### Task 2: Test auditing
 
 In this task you will, open the Project Admin app, create or edit the Annual Conference project, change its Due Date multiple times, and verify the changes in Audit History.
 
-1. Navigate to the **Power Apps** maker portal and make sure your in **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** environment.
+1. Navigate to the **Power Apps** portal and make sure your in **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** environment.
 
 1. Select **Apps (1)** and select the **Project Admin (2)** application to launch.
 
@@ -268,7 +268,7 @@ In this task you will, open the Project Admin app, create or edit the Annual Con
 
 1. From this screen, reopen the **Annual Conference** project.
 
-1. Change the **Due Date (1)** to any date in the future and select **Save (2)**.
+1. Change the **Due Date (1)** to any date in the future date and select **Save (2)**.
 
    ![](images/M02/pp135.png)
 
@@ -305,7 +305,15 @@ In this task you will, install the Creator Kit from AppSource, configure the HTT
 
 ### Installation of Creator Kit
 
-1. Go to the [Creator Kit page on AppSource](https://appsource.microsoft.com/en-US/product/dynamics-365/microsoftpowercatarch.creatorkit1?tab=Overview) page.
+1. On the **Power Apps** portal, select the **Environment** and select **Power Platform COE**.
+
+    ![](images/img-01-34.png)
+
+1. Open a new tab, and navigate to the **Creator Kit page on AppSource** page.
+
+    ```
+    https://appsource.microsoft.com/en-US/product/dynamics-365/microsoftpowercatarch.creatorkit1?tab=Overview 
+    ```
 
     > **Note:** If required sign in to an account with ODL Credentials
 
@@ -313,19 +321,29 @@ In this task you will, install the Creator Kit from AppSource, configure the HTT
 
    ![](images/M02/M2-EX3N-T1-S1.png)
 
-    >**Note:** Ensure your Power apps environment is in **Power Platform COE**.
+    >**Note:** On the **Confirm your details to continue** select **Get it now**.
+
 3. The App Source install experience will launch the **Power Platform admin center** and ask you to identify the target Environment. Close the popups and continue.
 
 4. Choose the **Power Platform COE (1)** Environment, review and agree to the two agreement checkboxes **(2)(3)**, then select the **Install (4)** button to continue the installation.
 
     ![](images/createinst.png)
 
+    >**Note:** If you encounter any errors, cancel the installation page and verify in the **Power Platform admin center** whether it is installed and enabled.
+
+    ![](images/img-01-35.png)
+
 1. Installation may take some time; meanwhile, you can continue with the next steps.
 
     ![](images/M02/pv6.png)
 
 ### Create Connections
-1. Go to [Power Automate](https://make.powerautomate.com/) in new tab.
+
+1. Open a new tab and navigate to the **Power Automate** portal, by using the following link.
+
+    ```
+    https://make.powerautomate.com/
+    ```
 
 1. Select your **Power Platform COE** environment.
 
@@ -341,13 +359,17 @@ In this task you will, install the Creator Kit from AppSource, configure the HTT
 
 1. Search for **HTTP with Microsoft Entra ID (1)** and then click on **HTTP with Microsoft Entra ID (preauthorized) (2)**
 
-    ![](images/M02/pv9.png)
+    ![](images/img-01-36.png)
 
 1. Set the **Base Resource URL (1)** and **Microsoft Entra ID Resource URI (Application ID URI) (2)** to https://graph.microsoft.com/. Click **Create (3)**.
 
-    ![](images/M02/pv10.png)
+    ![](images/img-01-37.png)
 
     > **Note:** On the **Pick an account** pop-up, select <inject key="AzureAdUserEmail"></inject>.
+
+1. On the **Confirmation required** page, select the check-box of the **I have verified this request and trust the source (1)**, and select **Allow access (2)**.
+
+    ![](images/img-01-38.png)
 
 ### Import the core components solution
 1. Open a new tab in the browser, copy and paste the link, and download the **[CoE Starter Kit](https://aka.ms/CoeStarterKitDownload)** to your virtual machine.
@@ -362,17 +384,17 @@ In this task you will, install the Creator Kit from AppSource, configure the HTT
 
     ![](images/M02/pv12.png)
 
-1. In the dialog box that appears, review the **destination path (1)** and then click on the"**Extract (2)** button to unzip the contents.
+1. In the dialog box that appears, review the **destination path (1)** and then click on the **Extract (2)** button to unzip the contents.
 
     ![](images/M02/pv13.png)
 
     > **Note:** The CoE Starter Kit compressed file contains all solution components in addition to the non–solution-aware components that make up the CoE Starter Kit. 
 
-1. Before proceeding to the next step, navigate back to the **Power Platform Admin Center**, **Refresh** the portal and navigate to the **Power Platform COE** environment and select **Dynamic 365 apps** under Resources.
+1. Before proceeding to the next step, navigate back to the **Power Platform Admin Center**, **Refresh** the portal and navigate to the **Power Platform COE (1)** environment and select **Dynamic 365 apps (2)** under Resources.
 
-    ![](images/M02/dy365.png)
+    ![](images/img-01-39.png)
 
-1. Ensure the **Creator Kit is installed** 
+1. Ensure the **Creator Kit** is installed. 
 
     ![](images/M02/ckinst.png)
 
@@ -382,7 +404,7 @@ In this task you will, install the Creator Kit from AppSource, configure the HTT
 
     ![](images/po-51.png)
 
-1. Click the **Import Solution** button at the top.
+1. Click the **Import solution** button at the top.
 
     ![](images/M02/pv14.png)
 
