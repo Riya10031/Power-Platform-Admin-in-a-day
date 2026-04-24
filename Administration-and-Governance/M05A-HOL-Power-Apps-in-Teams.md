@@ -22,9 +22,17 @@ In this lab, you will complete the following exercises:
 
 In this task you will, create a private team named Central IT, add Lab Users 01–10 as members, and promote them to co-owners. 
 
-1. Navigate to **Microsoft Teams**, using the following link https://teams.microsoft.com/v2/. 
+1. Open a new tab, navigate to the **Microsoft Teams**, using the following link.
 
-1. If prompted, log in with the lab credentials.
+   ```
+   https://teams.microsoft.com/v2/
+   ```
+
+1. On the **Enjoy your Teams trial** page, select **Start trial**.
+
+   ![](images/img-01-102.png)
+
+   >**Note:** Close all the pop-ups.
 
 1. Click on the **Chat (1)**, select the dropdown **(2)** and then click on **New team (3)**.
 
@@ -50,7 +58,7 @@ In this task you will, create a private team named Central IT, add Lab Users 01�
 
 1. Search for **lab user** again and select **Lab User02**.
 
-1. Do the same for the rest of the users up to **Lab User10** and then select **Add**. (You will have **Lab User01 - Lab User05** selected to be added to the Team).
+1. Do the same for the rest of the users up to **Lab User10** and then select **Add**.
 
 1. Change all the users to have the role of **Owner (1)** to make them **co-owners** of the team and then click on **Add (2)**
 
@@ -80,9 +88,9 @@ In this task you will, open Power Apps inside Teams, select the Central IT team,
 
    ![](images/M05/p5p9.png)
 
-    >**Note**: As your creating the App for the first time t might take around 10-15 minutes to create please wait.
+    >**Note**: As your creating the App for the first time it might take around 10-15 minutes to create please wait.
 
-1. Please keep checking on the **Activity (1)** section, where you will get the notification once the **App is ready then you can build the app (2)**.
+1. Keep checking the **Activity (1)** section, where you will receive a notification once the app is ready. You can then build the app **(2)**.
 
    ![](images/M05/ppt51.png)
 
@@ -92,7 +100,7 @@ In this task you will, open Power Apps inside Teams, select the Central IT team,
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-   <validation step="2d8c92b8-a1b7-4905-b5a4-5550f3c9c011" />
+<validation step="011520fb-58d8-44f3-9fb3-5039bc2caea2" />
 
 ## Exercise 2: Create your first app
 
@@ -116,7 +124,7 @@ In this task, you will create an application, and a table, and add new columns t
 
 1. Select **Power Apps (1)** from the navigation bar, then select the **Home (2)** tab and choose **Start now (3)**.
 
-   ![](images/papst.png)
+   ![](images/img-01-103.png)
 
 1. Select the **Central IT (1)** team and then select **Create (2)**.
 
@@ -130,9 +138,9 @@ In this task, you will create an application, and a table, and add new columns t
 
 1. Select **With data (1)**, and then select **+ Create new table (2)**.
 
-   ![](images/M5B-EX1-T2-S6.png)
+   ![](images/img-01-104.png)
 
-1. On the **Create table** pane, select **Start with a blank table**.
+1. On the **Create new table** pane, select **Start with a blank table**.
 
    ![](images/M05/po39.png)
 
@@ -140,7 +148,7 @@ In this task, you will create an application, and a table, and add new columns t
 
    ![](images/M05/ppt52.png)
 
-1. Enter **Lab 01 Request (1)** for the Table name, and choose **Save (2)**.
+1. Enter **Lab 01 Request (1)** for the Display name, and choose **Save (2)**.
 
    ![](images/M05/p5p16.png)
 
@@ -172,9 +180,9 @@ In this task, you will create an application, and a table, and add new columns t
 
     ![](images/M05/p5p19.png)
 
-1. Select the first cell within the **New column**, type **Ergonomic office chair**, enter a description within the **Description** cell and select today’s date for the **Requested date** cell.
- 
-    ![](images/M05/p5p20.png)
+1. Select the first cell within the **New column**, type **Ergonomic office chair**, enter **Office chair for office** in the **Description** cell, and select today’s date in the **Requested date** cell.
+
+   ![](images/M05/p5p20.png)
 
 1. Add a few more request rows and select **Save and close**. You can use the following data to enter into the cells of the table:
 
@@ -194,7 +202,7 @@ In this task, you will create an application, and a table, and add new columns t
     
      >**Note**: The app should now have a gallery and a form. Select **Save**, if Save is enabled otherwise no issues it will get saved by default and wait for the app to be saved.
 
-      ![](images/M05/M5B-EX1-T2-S16.png)
+      ![](images/img-01-105.png)
 
 1. Select **Preview**.
 
@@ -226,11 +234,11 @@ In this task, you will create an application, and a table, and add new columns t
 
     ![](images/M05/pv88.png)
 
-1. Select the **Plus sign (1)** next to the **General** channel to **Add app as a tab**. This will make it discoverable on the channel. Then, Select **Save and close (2)**.
+1. Select the **Plus sign (1)** next to the **General** channel to **Add app as a tab**. This will make it discoverable on the channel. Then, select **Save and close (2)**.
 
     ![](images/M05/p5p26.png)
 
-1. From the navigation bar, select **Chat (1)**, then click on **Central IT channel (2)**. Locate the app tab you added and select it **Special Request Lab 01(3)**. The app should load.
+1. From the navigation bar, select **Chat (1)**, then click on **Central IT channel (2)**. Locate the app tab you added and select **Special Request Lab 01(3)**. The app should load.
 
    ![](images/M05/ppt54.png)
 
@@ -282,4 +290,6 @@ In this lab, you have accomplished the following:
 - Exercise 2 - Create your first app
 - Exercise 3 - Share your app
 
-### You have successfully completed this module.   
+### You have successfully completed this module. Click **Next** from the lower right corner to move on to the next page.
+
+![Launch Azure Portal](images/gp8.png) 

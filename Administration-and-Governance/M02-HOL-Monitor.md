@@ -577,5 +577,7 @@ In this lab, you have accomplished the following:
 - Exercise 2 – Configured Dataverse logging for a table
 - Exercise 3 - Set up inventory components
 
-### You have successfully completed this module.
+### You have successfully completed this module. Click **Next** from the lower right corner to move on to the next page.
+
+![Launch Azure Portal](images/gp8.png)
 

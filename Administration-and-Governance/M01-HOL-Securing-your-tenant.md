@@ -652,7 +652,6 @@ In this lab, you have accomplished the following:
 - Exercise 4 – Evaluated the impact of adding DLP
 - Exercise 5 – Configured a security role
 
-
 ### You have successfully completed this module. Click **Next** from the lower right corner to move on to the next page.
 
 ![Launch Azure Portal](images/gp8.png)

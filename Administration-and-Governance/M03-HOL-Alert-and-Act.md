@@ -503,38 +503,35 @@ In this task you will, import the Send Welcome Email flow into the Power Platfor
 
    ![](images/coe3.png)
 
-1. Scroll down to **Create new canvas app and cloud flows in detaverse solutions** and ensure **both the toggle are Off**.
+1. Scroll down to **Create new canvas app and cloud flows in Dataverse solutions** and ensure that **both toggles are turned off**. Then, select **Save**.
 
    ![](images/coe4.png)
 
-1. Navigate to **Power Automate**.
+1. Navigate to **Power Automate**. Make sure **Power Platform COE** environment is selected. 
 
-1. Make sure **Power Platform COE** environment is selected. 
-
-    > **Note:** While we are using this here, in your tenant you might do this in an admin-focused environment or where you have 
-   installed the CoE Starter Kit.
+    > **Note:** While we are using this here, in your tenant you might do this in an admin-focused environment or where you have installed the CoE Starter Kit.
 
    ![](images/M03/pv32.png)
 
-1. Select **My Flows (1)** and click **Import (2)** and select **Import Package (Legacy) (3)**. (For this step, you may not be able to access the content while you are in Incognito mode. If this is the case, simply switch to your normal browser).
+1. Select **My Flows (1)** and click **Import (2)** and select **Import Package (Legacy) (3)**.
 
-   ![](images/M03/pv55.png)
+   ![](images/img-01-51.png)
 
-1. Select **Upload**.
+   >**Note:** For this step, you may not be able to access the content while you are in Incognito mode. If this is the case, simply switch to your normal browser.
 
-1. Navigate to `C:\LabFiles\PPAdminAttendee%20(1)\PPAdminAttendee\M03 - HOL - Alert and Act` **(1)**, Select the **Send Welcome Email (2)** zip file and select **Open (3)**.
+1. Select **Upload** and navigate to `C:\LabFiles\PPAdminAttendee%20(1)\PPAdminAttendee\M03 - HOL - Alert and Act` **(1)**, select the **Send Welcome Email (2)** zip file and select **Open (3)**.
 
    ![](images/M03/ppt36.png)
 
-1. This will be in your lab resource files you downloaded named **SendWelcomeEmailToNewPowerAppsMakers_20190529192359.zip**.
+1. This file will be available in the lab resource files you downloaded, named **SendWelcomeEmailToNewPowerAppsMakers_20190529192359.zip**.
 
    ![](images/M03/M3-EX4-T2-S5.png)
 
-1. Select Configure for the flow.
+1. On the **Import package**, select Configure for the flow.
 
    ![](images/M03/M3-EX4-T2-S6.png)
 
-1. Select **Create as new (1)** and select **Save (2)**.
+1. On the **Import setup** select **Create as new (1)** and select **Save (2)**.
 
    ![](images/M03/pv56.png)
 
@@ -558,7 +555,7 @@ In this task you will, import the Send Welcome Email flow into the Power Platfor
 
    ![](images/M03/pv61.png)
 
-1. Select the available connection and select **Save**.   
+1. Select the available connection and select **Save**. 
 
 1. If the connection is not listed, then follow the below steps:
 
@@ -566,25 +563,33 @@ In this task you will, import the Send Welcome Email flow into the Power Platfor
 
     - Select **+ New connection**.
 
-      ![](images/M03/ppt50.png)
+      ![](images/img-01-52.png)
 
     - Search for **Power apps (1)**  and select **PowerApps for Admins (2)**.
 
-      ![](images/M03/ppt37.png)
+      ![](images/img-01-53.png)
 
-    - Select **Create**.
+    - On the **Connect to Power Apps for Admins** page, select **Create**.
 
-    - Login with your maker credentials.
+      ![](images/img-01-54.png)
+
+    - On the **Pick an account** page, select the **<inject key="AzureAdUserEmail"></inject>**.
+
+    - On the **Confirmation required** page, select the check-box of the **I have verified this request and trust the source (1)** and select **Allow access (2)**.
+
+      ![](images/img-01-55.png)
 
 1. You should now have the connections listed in the image below.
 
-    ![](images/M03/ppt49.png)
+    ![](images/img-01-56.png)
 
-1. Go back to the **Flow import**.
+1. Go back to the **Import package** page.
+
+   >**Note:** If you are unable to see the **Flow import** page, follow the steps from 09–15 and directly jump to step 20.
 
 1. Select **Refresh list**, select the connection you just added, and select **Save**.
 
-    ![](images/ppt47.png)
+    ![](images/img-01-57.png)
 
 1. Select **Configure** for **Office 365 Group Connection**.
 
@@ -596,31 +601,37 @@ In this task you will, import the Send Welcome Email flow into the Power Platfor
 
     - Select **+ Create new**.
 
-      ![](images/M3-EX4-T2-S15.png)
+      ![](images/img-01-58.png)
 
     - Select **+ New connection**.
 
-      ![](images/M03/ppt50.png)
+      ![](images/img-01-52.png)
 
-    - Search for **Office 365 Groups** and select **Add**.
+    - Search for **Office 365 Groups (1)** and select **Office 365 Groups (2)** from the new connection list.
 
-      ![](images/M03/M3-EX4-T2-S17.png)
+      ![](images/img-01-59.png)
 
-    - Select **Create**.
+    - On the **Connect to Office 365 Groups** page, select **Create**.
 
-    - Login with your maker credentials.
+      ![](images/img-01-60.png)
+
+    - On the **Pick an account** page, select the **<inject key="AzureAdUserEmail"></inject>**.
+
+    - On the **Confirmation required** page, select the check-box of the **I have verified this request and trust the source (1)** and select **Allow access (2)**.
+
+      ![](images/img-01-61.png)
 
 1. You should now have the connections listed in the image below.
 
-    ![](images/M03/ppt49.png)
+    ![](images/img-01-62.png)
 
-1. Go back to the **Flow import**.
+1. Go back to the **Import package** page. Select **Refresh list**, select the connection you just added, and select **Save**.
 
-1. Select **Refresh list**, select the connection you just added, and select **Save**.
+    ![](images/img-01-57.png)
 
-    ![](images/ppt47.png)
+1. Select **Configure** for **Office 365 Users Connection**.
 
-1. Select Action for **Office 365 Users Connection**.
+   ![](images/img-01-63.png)
 
 1. Select the available connection and select **Save**.   
 
@@ -628,60 +639,71 @@ In this task you will, import the Send Welcome Email flow into the Power Platfor
 
     - Select **+ Create new**.
 
-      ![](images/M3-EX4-T2-S15.png)
+      ![](images/img-01-58.png)
 
     - Select **+ New connection**.
 
-      ![](images/M03/ppt50.png)
+      ![](images/img-01-52.png)
 
-    - Search for **Office 365 Users** and select **Add**.
+    - Search for **Office 365 Users (1)** and select **Office 365 Users (2)** from the connection list.
 
-    - Select **Create**.
+      ![](images/img-01-64.png)
 
-    - Login with your maker credentials.
+    - On the **Connect to Office 365 Users** page, select **Create**.
 
-1. Select **Refresh list**, select the connection you just added, and select **Save**.
+      ![](images/img-01-65.png)
 
-    ![](images/ppt47.png)
+    - On the **Pick an account** page, select the **<inject key="AzureAdUserEmail"></inject>**.
+
+    - On the **Confirmation required** page, select the check-box of the **I have verified this request and trust the source (1)** and select **Allow access (2)**.
+
+      ![](images/img-01-66.png)
+
+1. Navigate back to the **Import package** page, select **Refresh list**, select the connection you just added, and select **Save**.
+
+    ![](images/img-01-57.png)
 
 1. Select **Import** and wait for the import to complete.
 
-    ![](images/M03/ppt48.png)
+    ![](images/img-01-68.png)
 
 1. The flow should import successfully.
 
-    ![](images/M03/M3-EX4-T2-S27.png)
-
+    ![](images/img-01-69.png)
 
 ### Task 3: Edit and Test Flow
 
 In this task you will, edit the flow to use the created group’s ID, turn it on, and test it by creating a new app. Verify that the maker is added to the group and receives a welcome email.
 
-1. Navigate to the maker portal https://make.powerapps.com and select the **Central Apps Test** environment.
+1. Navigate to the **Power Apps** portal https://make.powerapps.com and select the **Central Apps Test** environment.
 
    ![](images/M03/pv62.png)
 
-1. Select **Apps (1)**, then **+ New app (2)** > **Start with a page design (3)**.
+1. On the left navigation menu, select **Apps (1)**, then select **+ New app (2)** > **Start with a page design (3)**.
 
    ![](images/M04/po29.png)
 
-1. Click on **+** on blank canvas app. Make sure **Tablet** is selected.
+1. On the **Start with design** page, select **Create from blank** option.
 
-   ![](images/M04/po30.png)
+   ![](images/img-01-70.png)
+
+1. On the **Start with a blank canvas** page, select **Tablet size**.
+
+   ![](images/img-01-72.png)
 
 1. The app designer should open. Select **Save** at the top right of the page.
 
-   ![](images/M03/pv63.png)   
+   ![](images/M03/pv63.png)
+
+   >**Note:** Select **Skip** on the **Welcome to Power Apps Studio** page.   
 
 1. Enter **Test app (1)** for App name and select **Create (2)**.
 
    ![](images/M03/pv64.png)
 
-1. Select the **Back** button.
+1. Go back to the **Power Apps** main page by selecting the **Back** button.
 
    ![](images/M3-EX4-T3-S6.png)
-
-1. Go back to the app maker main page by selecting the **Back** button.
 
 1. Select **Solutions (1)**. Click on  **Publish all customizations (2)**.
 
@@ -691,11 +713,9 @@ In this task you will, edit the flow to use the created group’s ID, turn it on
 
    ![](images/M03/pv66.png)
 
-1. Navigate to **Power Automate**.
+1. Navigate to **Power Automate**. Select the **Power Platform CoE** environment.
 
-1. Select the **Power Platform CoE** environment.
-
-1. Select **My Flows (1)**. Search for **New Maker (2)** and then click on **Edit (3)** icon in the **Admin Aler|New Maker**.
+1. Select **My Flows (1)**. Search for **New Maker (2)** and then click on **Edit (3)** icon in the **Admin Alert | New Maker**.
 
     ![](images/M03/pv67.png)
 
@@ -703,17 +723,13 @@ In this task you will, edit the flow to use the created group’s ID, turn it on
 
     ![](images/M03/M3-EX4-T3-S13.png)
 
-1. Expand the **Office Group ID** step.
+1. Expand the **OfficialGroupID** box. Clear the current **Group ID**.
 
-1. Clear the current **Group ID**.
-
-1. Copy the **Group ID** from your notepad and paste it here.
+1. Copy the **Object Id** from your notepad and paste it in the **OfficialGroupID** box.
 
     ![](images/M03/pv68.png)
 
-1. You may examine the steps of the flow.
-
-1. Select **Save**.
+1. You may examine the steps of the flow. Select **Save**.
 
     ![](images/M03/pv69.png)
 
@@ -733,23 +749,15 @@ In this task you will, edit the flow to use the created group’s ID, turn it on
 
     ![](images/M03/pv73.png)
 
-1. Select **Done**.
-
-1. **Refresh (1)** every few seconds until the flow status changes. Your flow run should succeed **(2)**.
+1. Select **Done**. **Refresh (1)** every few seconds until the flow status changes. Your flow run should succeed **(2)**.
 
     ![](images/M03/pv74.png)
 
-1. Go back to the **Azure portal**.
-
-1. Select **Microsoft Enta ID**.
-
-1. Select **Groups** under **Manage**.
+1. Go back to the **Azure portal**. Select **Microsoft Enta ID**. Select **Groups** under **Manage**.
 
    ![](images/M03/pv52.png)
 
-1. Select **All groups**.
-
-1. Search for **Lab Admin Makers** and then select it.
+1. Select **All groups**. Search for **Lab Admin Makers** and then select it.
 
     ![](images/M03/ppt40.png)
 
@@ -757,12 +765,9 @@ In this task you will, edit the flow to use the created group’s ID, turn it on
 
     ![](images/M03/ppt42.png)
     
-1. Navigate to [Outlook](https://outlook.office365.com/).
-
-1. You should get a welcome email. Open the email. If you don’t get an email, it is probably because you didn’t create an application in the past 24 hours, create a new Power App and run 
-    the flow again.
+1. Navigate to [Outlook](https://outlook.office365.com/). You should get a welcome email. Open the email. If you don’t get an email, it is probably because you didn’t create an application in the past 24 hours, create a new Power App and run the flow again.
     
-    ![](images/M03/ppt41.png)
+    ![](images/img-01-73.png)
 
 ### Review
 
@@ -772,5 +777,6 @@ In this lab, you have accomplished the following:
 - Exercise 2 – Created Environment on Form Submit
 - Exercise 3 – Welcome New Makers (Optional if you have time)
 
+### You have successfully completed this module. Click **Next** from the lower right corner to move on to the next page.
 
-### You have successfully completed this module.
+![Launch Azure Portal](images/gp8.png)
