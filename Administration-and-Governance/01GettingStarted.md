@@ -28,7 +28,6 @@ By the end of this lab, you will be able to:
 - Basic understanding of Power Apps, Power Automate, and Microsoft Dataverse.
 - General knowledge of environment management, data governance, and DLP (Data Loss Prevention) policies.
 
-
 ## Architecture 
 
 This architecture diagram explores the Power Platform ecosystem and its governance using the Power Platform Admin Center. We learned how to plan environments, apply Data Loss Prevention (DLP) policies, and assign security roles to ensure apps and flows remain secure and compliant. With Power Apps inside Teams, we created custom apps tailored for team needs, showing how quickly solutions can be built without heavy coding. Using Power Automate, we understood how flows connect services to automate repetitive business processes, enhancing productivity. To monitor usage, we published and used Power BI reports to analyze app and flow activities, check connector tiers, and track who is using connectors like Office 365 Outlook. Altogether, the lab showed how to combine productivity, automation, and governance in a secure and efficient way.
@@ -95,7 +94,6 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
 
 1. If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com.
 
-
 ## Getting Started with Lab
 
 1. In the JumpVM, click on the **Power Apps Portal** shortcut of the Microsoft Edge browser that is available on the desktop.
@@ -110,19 +108,19 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
 
 1. Now enter the following **password**  and click on **Sign in**. 
 
-    * Password: <inject key="AzureAdUserPassword"></inject>
+    * Temporary Access Pass: <inject key="AzureAdUserPassword"></inject>
   
-      ![](images/M01/password.png)
+      ![](images/password-1211.png)
 
-1. When prompted, select **Get Started**.
+1. On the **Welcome to Power Apps**, when prompted, select **Get Started**.
 
-    ![](images/gp5.png)
+    ![](images/img-01-01.png)
 
 1.  Once logged in, click on **Environment** and select the default environment named **OTU WA XX XXX (default)**.
 
-    ![](images/ppt1.png)
+    ![](images/img-01-02.png)
 
-1. Select **Solutions (1)** and click on **Create database (2)**.
+1. On the **Power Apps** select **Solutions (1)** and click on **Create a database (2)**.
 
     ![](images/gp6.png)
 
@@ -133,7 +131,6 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
     >**Note**: You may get an error like **Self service signup plan is required to complete the request**, but you can ignore that as the dataverse will be creating in the backend. It might take around 5-10 mins. You can proceed with the next steps.
 
     >**Note**: You may get **Try again** message, please do refresh the page after 5-6 mins.
-
 
 ## Support Contact
 
