@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "Power Platform Workshop: Administration and Governance",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Power-Platform-Admin-in-a-day/main/Administration-and-Governance/01GettingStarted.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Power-Platform-Admin-in-a-day/main/Administration-and-Governance/M01-HOL-Securing-your-tenant.md",
+        "Order": 2
+      },
+      {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Power-Platform-Admin-in-a-day/main/Administration-and-Governance/M02-HOL-Monitor.md",
+        "Order": 3
+      },
+      {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Power-Platform-Admin-in-a-day/main/Administration-and-Governance/M03-HOL-Alert-and-Act-01.md",
+        "Order": 4
+      },
+      {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Power-Platform-Admin-in-a-day/main/Administration-and-Governance/M04-HOL-Managed-Environments.md",
+        "Order": 5
+      },
+      {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Power-Platform-Admin-in-a-day/main/Administration-and-Governance/M05A-HOL-Power-Apps-in-Teams.md",
+        "Order": 6
+      }
+    ]
+  }
+]
