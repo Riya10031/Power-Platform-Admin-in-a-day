@@ -1,6 +1,6 @@
 ## Admin in a day
 
-# M06-Explore the CoE Starter Kit (Optional)
+# M06-Explore the CoE Starter Kit (READ ONLY)
 
 ### Estimated Duration: 75 Minutes
 
