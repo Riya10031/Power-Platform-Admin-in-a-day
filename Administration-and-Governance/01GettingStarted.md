@@ -132,6 +132,12 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
 
     >**Note**: You may get **Try again** message, please do refresh the page after 5-6 mins.
 
+1. On the **Lab-VM**, double-click the **setup-powerapps-envs** file. When prompted, enter the username as **<inject key="AzureAdUserEmail"></inject>** and the password as **<inject key="AzureAdUserPassword"></inject>**, and wait for the script to finish.
+
+    ![](images/img-01-121.png)
+
+    ![](images/img-01-120.png)
+
 ## Support Contact
 
 The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance anytime. We offer dedicated support channels tailored specifically for learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
