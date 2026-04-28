@@ -17,7 +17,6 @@ In this lab, you will complete the following exercises:
 - Exercise 2 – Configure Dataverse logging for a table
 - Exercise 3 - Set up inventory components
 
-
 ### Lab Test Environment
 
 This lab is designed to be completed in an environment setup for multiple students to complete the Admin in a day series of hands-on labs.
@@ -309,33 +308,33 @@ In this task you will, install the Creator Kit from AppSource, configure the HTT
 
     ![](images/img-01-34.png)
 
-1. Open a new tab, and navigate to the **Creator Kit page on AppSource** page.
+1. Open a new tab and download the **Creator Kit** using the following link.
 
     ```
-    https://appsource.microsoft.com/en-US/product/dynamics-365/microsoftpowercatarch.creatorkit1?tab=Overview 
+    https://aka.ms/creatorkitdownload 
     ```
 
-    > **Note:** If required sign in to an account with ODL Credentials
+1. You can see the downloaded file in the right top corner, **download (1)** section. Click on the **Folder (2)** icon to open the foder in the File explorer.
 
-2. Select the button **Get it now**.
+   ![](images/img-01-110.png)
 
-   ![](images/M02/M2-EX3N-T1-S1.png)
+1. Navigate back to the **Power Apps** portal and, from the left navigation menu, select **Solutions (1)**. On the **Solutions** page, select **Import solution (2)**.
 
-    >**Note:** On the **Confirm your details to continue** select **Get it now**.
+    ![](images/img-01-111.png)
 
-3. The App Source install experience will launch the **Power Platform admin center** and ask you to identify the target Environment. Close the popups and continue.
+1. On the **Import a solution** page, select **Browse**, and choose the file that you downloaded.
 
-4. Choose the **Power Platform COE (1)** Environment, review and agree to the two agreement checkboxes **(2)(3)**, then select the **Install (4)** button to continue the installation.
+    ![](images/img-01-112.png)
 
-    ![](images/createinst.png)
+    ![](images/img-01-113.png)
 
-    >**Note:** If you encounter any errors, cancel the installation page and verify in the **Power Platform admin center** whether it is installed and enabled.
+1. After selecting the file, on the **Import a solution** page, click **Next**. Select **Import**.
 
-    ![](images/img-01-35.png)
+    ![](images/img-01-114.png)
 
-1. Installation may take some time; meanwhile, you can continue with the next steps.
+    ![](images/img-01-115.png)
 
-    ![](images/M02/pv6.png)
+1. Wait for the import to complete, and then proceed with the next steps.
 
 ### Create Connections
 
